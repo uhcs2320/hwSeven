@@ -1,4 +1,4 @@
-# hw7 roadtrip, due: Monday, Nov 5, 11:50 p.m.
+# hw7 roadtrip, due: Wednesday, Nov 7, 11:50 p.m.
 
 You will create a C++ program that will simulate roadtrip(s) a student takes to do on-site job interviews in various Texas cities.
 The fundamental data structure concept to practice is graphs (via finding shortest path).
@@ -23,7 +23,7 @@ Example cities input-file:
       Tyler	Sherman	4
       Tyler	FortWorth	5
       Longview	Sherman	5
-      Dallas	Sherman	3
+      Dallas	Tyler	3
       Odessa	Midland	1
       Lubbock	Midland	6
       Lubbock	Abiline	9
@@ -42,7 +42,7 @@ Example cities input-file:
       FortWorth	Killeen	6
       Abiline	Killeen	8
       Waco	Tyler	4
-      McAllen	Brownsville	1
+      McAllen	Brownsville	2
       McAllen	Laredo	6
       Austin	SanAntonio	3
       Laredo	SanAntonio	9
@@ -116,6 +116,44 @@ Each line must be in the format of a city name followed by end-line character; f
 Your program must follow the output format exactly to allow for automated grading
 (and to avoid failing test cases due to things such as output of an empty line at the end).
 
+## Output for the example input file
+
+The first trip to be figured out is from Houston to Austin (and back). These two cities happen to be directly connected via the shortest path.
+Hence the subset of the output for the first trip is:
+
+    Houston
+    Austin
+    Austin
+    Houston
+
+The second trip to be figured out is from Houston to McAllen; maybe our student is going for on-site interview at Hamer Enterprises.
+The subset of the output corresponding to the second trip is:
+
+    Houston
+    Victoria
+    CorpusChristi
+    McAllen
+    McAllen
+    Laredo
+    SanAntonio
+    Austin
+    Houston
+
+The third trip to be figured out is from Dallas to ElPaso.
+The subset of the output corresponding to the third trip is:
+
+    Dallas
+    FortWorth
+    Abiline
+    SanAngelo
+    Odessa
+    ElPaso
+    ElPaso
+    Midland
+    Lubbock
+    WichitaFalls
+    Sherman
+    Dallas
 
 ## Assumptions
 

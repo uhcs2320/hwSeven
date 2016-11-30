@@ -11,7 +11,7 @@ Dallas	Sherman	2
 Tyler	Sherman	4
 Tyler	FortWorth	5
 Longview	Sherman	5
-Dallas	Sherman	3
+Dallas	Tyler	3
 Odessa	Midland	1
 Lubbock	Midland	6
 Lubbock	Abiline	9
@@ -30,7 +30,7 @@ FortWorth	Waco	4
 FortWorth	Killeen	6
 Abiline	Killeen	8
 Waco	Tyler	4
-McAllen	Brownsville	1
+McAllen	Brownsville	2
 McAllen	Laredo	6
 Austin	SanAntonio	3
 Laredo	SanAntonio	9
