@@ -1,4 +1,4 @@
-# hw7 roadtrip, due: Wednesday, Nov 7, 11:50 p.m.
+# hw7 roadtrip, due: Saturday, Nov 10, 11:50 p.m.
 
 You will create a C++ program that will simulate roadtrip(s) a student takes to do on-site job interviews in various Texas cities.
 The fundamental data structure concept to practice is graphs (via finding shortest path).
@@ -158,11 +158,14 @@ The subset of the output corresponding to the third trip is:
 ## Assumptions
 
 It is OK for you to assume the following:
+
   * Names of cities will contain letters only, and the names will be exactly one word (of at least one letter but no bigger than 156 letters)
   * Each input file can fit in main memory (not larger than 100Kb).
   * Lines are terminated with an end-of-line character.
   * Lines that start with the symbol `#` should be considered comments and therefore skipped.
   * All items in the input file (that is, columns) will be separated by one tab character (namely, `\t`).
+  * The maximum number of roads connecting a city is 4.
+  * There will not be test cases where two (or more) different shortest paths can be found.
 
 ## Requirements
 
