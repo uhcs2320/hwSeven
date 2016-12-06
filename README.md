@@ -24,7 +24,7 @@ Example cities input-file:
       Tyler	FortWorth	5
       Longview	Sherman	5
       Dallas	Tyler	3
-      Odessa	Midland	1
+      Odessa	Midland	4
       Lubbock	Midland	6
       Lubbock	Abiline	9
       Lubbock	Amarillo	6
@@ -36,7 +36,7 @@ Example cities input-file:
       ElPaso	SanAntonio	30
       SanAngelo	SanAntonio	17
       SanAngelo	Austin	13
-      Waco	Killeen	2
+      Waco	Killeen	3
       Austin	Killeen	4
       FortWorth	Waco	4
       FortWorth	Killeen	6
