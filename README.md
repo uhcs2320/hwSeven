@@ -17,17 +17,13 @@ Example cities input-file:
       WichitaFalls	Sherman	7
       Dallas	FortWorth	1
       WichitaFalls	FortWorth	5
-      WichitaFalls	Abiline	7
       Abiline	FortWorth	7
       Dallas	Sherman	2
-      Tyler	Sherman	4
-      Tyler	FortWorth	5
       Longview	Sherman	5
       Dallas	Tyler	3
       Odessa	Midland	4
       Lubbock	Midland	6
       Lubbock	Abiline	9
-      Lubbock	Amarillo	6
       Lubbock	Odessa	8
       Lubbock	WichitaFalls	14
       Amarillo	WichitaFalls	18
@@ -35,10 +31,8 @@ Example cities input-file:
       ElPaso	Midland	16
       ElPaso	SanAntonio	30
       SanAngelo	SanAntonio	17
-      SanAngelo	Austin	13
       Waco	Killeen	3
       Austin	Killeen	4
-      FortWorth	Waco	4
       FortWorth	Killeen	6
       Abiline	Killeen	8
       Waco	Tyler	4
@@ -46,14 +40,12 @@ Example cities input-file:
       McAllen	Laredo	6
       Austin	SanAntonio	3
       Laredo	SanAntonio	9
-      Victoria	SanAntonio	6
       SanAngelo	Abiline	3
       SanAngelo	Odessa	6
       SanAngelo	Midland	4
       Victoria	CorpusChristi	3
       McAllen	CorpusChristi	7
       Laredo	CorpusChristi	8
-      SanAntonio	CorpusChristi	9
       Brownsville	CorpusChristi	6
       Houston	Beaumont	3
       CollegeStation	Beaumont	7
@@ -62,7 +54,6 @@ Example cities input-file:
       Tyler	CollegeStation	7
       Houston	Victoria	6
       Houston	Austin	7
-      Waco	CollegeStation	4
       trip   Houston  Austin
       trip   Houston  McAllen
       trip   Dallas  ElPaso
