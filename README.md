@@ -157,6 +157,8 @@ It is OK for you to assume the following:
   * All items in the input file (that is, columns) will be separated by one tab character (namely, `\t`).
   * The maximum number of roads connecting a city is 4.
   * There will not be test cases where two (or more) different shortest paths can be found.
+  * The maximum distance of a road is 99.
+  * There will not be test cases such as: `trip	Houston	Houston`
 
 ## Requirements
 
