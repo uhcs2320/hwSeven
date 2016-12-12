@@ -1,0 +1,6 @@
+#city1	city2	distance
+WichitaFalls	FortWorth	5
+Lubbock	WichitaFalls	14
+Abiline	FortWorth	7
+Lubbock	Abiline	9
+trip	WichitaFalls	FortWorth
